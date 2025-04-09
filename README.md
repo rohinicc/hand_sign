@@ -18,8 +18,43 @@ This project is a real-time **hand sign detection system** built using **MediaPi
 - **TensorFlow** (for model prediction)
 - **pyttsx3 / gTTS** (for speech output)
 
-## 🧾 How to Run the Project
+# 🖐️ Hand Sign Detection Using Python
 
-1. Clone the repository or download the ZIP.
+Real-time hand sign recognition using Python, OpenCV, MediaPipe, TensorFlow and Text-to-Speech. Detects gestures via webcam and speaks the recognized sign.
+
+🔗 GitHub: https://github.com/rohinicc/hand_sign
+
+---
+
+## ✅ Quick Setup Instructions (ALL-IN-ONE TERMINAL CODE)
+
+Just copy and paste this whole thing into your terminal:
+
 ```bash
+# Clone the project
+git clone https://github.com/rohinicc/hand_sign.git
+cd hand_sign
+
+# (Optional) Create and activate virtual environment
+python -m venv venv
+
+# For Windows
+venv\Scripts\activate
+
+# For macOS/Linux
+# source venv/bin/activate
+
+# Install all required Python libraries
+pip install opencv-python
+pip install mediapipe
+pip install tensorflow
+pip install numpy
+pip install pyttsx3
+
+# If pyttsx3 doesn't work, use gTTS as backup
+pip install gTTS playsound
+
+# Run the app
+python testvoice.py
+
 
